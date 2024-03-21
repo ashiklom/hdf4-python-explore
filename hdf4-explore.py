@@ -71,7 +71,7 @@ dd_df = dd_df_all[~((dd_df_all["tag"] == 1) & (dd_df_all["ref"] == 0))].sort_val
 # 1965 -- DFTAG_VG (virtual group)
 # 16445 - ???
 
-ref = dd_df[dd_df["ref"] == 5]
+ref = dd_df[dd_df["ref"] == 41]
 
 # Parse the first tag in this file
 dd00 = dd_blocks[0]["dd"][0]
